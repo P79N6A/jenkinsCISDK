@@ -6,7 +6,7 @@
 @file: jenkinsClient.py 
 @time: 2019/09/16
 @software: pycharm
-@Description: jenkins url: http://tobci.byted.org/jenkins/view/xiaoyong_view_test/
+@Description: 
 """
 import json
 import xmltodict
