@@ -52,13 +52,13 @@ if __name__=="__main__":
 
 ## 二：API
 
-> ###  please see the [API](https://code.byted.org/dp/jenkinsCISDK/blob/master/jenkinsCIAPI.png)
+> ###  please see the [API](https://github.com/xiaoyongtang/jenkinsCISDK/blob/master/jenkinsCIAPI.png)
 
 
 ***
 
 
 ## 三：more information
-> ### for further information,please see the [code](https://code.byted.org/dp/jenkinsCISDK/blob/master/jenkinsCI/jenkinsClient.py)
+> ### for further information,please see the [code](https://github.com/xiaoyongtang/jenkinsCISDK/blob/master/jenkinsCI/jenkinsClient.py)
 
 ***
