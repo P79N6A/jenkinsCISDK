@@ -6,7 +6,7 @@
 @file: jenkinsClient.py 
 @time: 2019/09/16
 @software: pycharm
-@Description: 
+@Description: jenkins url: http://tobci.byted.org/jenkins/view/xiaoyong_view_test/
 """
 import json
 import xmltodict
@@ -217,6 +217,8 @@ class JenkinsClient(Jenkins):
         :param job_name: Name of an existing job
         :return:true/false/error msg
         '''
+        self.disable_job(job_name)
+        self.enable_job(job_name)
         _start_job_build_num=0
         if len(self.jenkinsclient.get_job(job_name).get_build_dict().keys())!=0:
             _start_job_build_num = self.jenkinsclient.get_job(job_name).get_last_buildnumber()

@@ -52,8 +52,16 @@ class Jenkins(JenkinsBase):
         :param password: password for jenkins auth, str
         :return: a Jenkins obj
         """
-        self.username = username
-        self.password = password
+        if username==None:
+            self.username = JenkinsBase.USERNAME
+        else:
+            self.username=username
+
+        if password==None:
+            self.password=JenkinsBase.PASSWORD
+        else:
+            self.password = password
+
         if requester is None:
             if useCrumb:
                 requester = CrumbRequester
